@@ -1,0 +1,169 @@
+body{
+  font-family: "Montserrat-black";
+}
+
+h1{
+  color: white;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  color: white;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h3{
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+em{
+  color: white;
+  font-family: "Montserrat-bold",sans-serif;
+  font-size: 1rem;
+}
+
+footer{
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  margin: 0 10%;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.btn-lg{
+  margin: 3% 3%;
+}
+.col-md-6{
+  margin-top: 5%;
+}
+
+.celphone{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 0;
+}
+
+.div-image{
+  position: relative;
+}
+
+@media (max-width: 767px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .div-image{
+    text-align: center;
+  }
+  .celphone{
+    transform: rotate(0);
+    width: 60%;
+    position: static;
+    right: 0;
+  }
+}
+
+
+
+.feature{
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.feature-icon{
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 10%;
+}
+
+.feature-icon:hover{
+  color:#ff4c68
+}
+
+.testimonial-image{
+  margin: 2%;
+  border-radius: 100%;
+  width: 10%;
+}
+
+.press-image{
+  margin: 2%;
+  margin-top: 0;
+  width: 15%;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+.pricing{
+  padding: 1%;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+}
+
+.card-title{
+  color: black;
+}
+
+.btn-pricing{
+  width: 100%;
+}
+
+.foot-ico{
+  display: inline-block;
+  color: black;
+  padding: 0 2%;
+}
+#title{
+  background-color: #ff4c68;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#press,#cta{
+  background-color: #ef8172;
+  padding: 5% 20%;
+  text-align: center;
+}
+
+#pricing{
+  padding: 5%;
+  text-align: center;
+}
